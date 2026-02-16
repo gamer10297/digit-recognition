@@ -8,3 +8,4 @@ class Neuron:
     def forward(self, input):
         self.last_input = input
         return self.activation_function(self.weight * input + self.bias)
+    
